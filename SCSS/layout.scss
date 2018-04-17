@@ -4,7 +4,15 @@ header{
 }
 
 .topnav{
+	ul{
+		display: flex;
+		position: absolute;
+		top: 0px;
+		left: 25%;
+	}
 	li{
+		flex-flow: row;
 		list-style: none;
+		padding: 10px;
 	}
 }
