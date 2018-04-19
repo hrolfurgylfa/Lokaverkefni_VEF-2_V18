@@ -1,0 +1,5 @@
+$maincolor: #000;
+$secondarycolor: purple;
+@mixin hover(){
+	background: linear-gradient(lighten($maincolor,30%),lighten($secondarycolor,30%))
+}
