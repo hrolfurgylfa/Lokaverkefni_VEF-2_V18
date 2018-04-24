@@ -10,6 +10,10 @@
 header{
 	width:100%;
 	background: $maincolor;
+	color: white;
+	text-align: center;
+	padding: 1.2em;
+	border: $secondarycolor solid 2px;
 }
 
 .sidenav{
@@ -53,15 +57,15 @@ header{
   display: none;
 }
 label{
-  color: white;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 18px;
-  padding: 5px 9px;
-  transition: all .15s ease;
-  background: black;
-  text-align: center;
-
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 18px;
+	padding: 5px 9px;
+	transition: all .15s ease;
+	background: black;
+	text-align: center;
+	border:$secondarycolor solid 1px;
 }
 .Efni+label{
   visibility:visible; 
