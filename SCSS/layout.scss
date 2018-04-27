@@ -13,7 +13,7 @@ header{
 	color: white;
 	text-align: center;
 	padding: 1.2em;
-	border: $secondarycolor solid 2px;
+	border: darken($thirdcolor,30%) solid 2px;
 }
 
 .sidenav{
@@ -35,7 +35,7 @@ header{
 		margin-top:2px;
 		list-style: none;
 		flex-grow: 1;
-		border: 1px solid $secondarycolor;
+		border: 1px solid darken($thirdcolor,30%);
 		background: $maincolor;
 		a{
 			display: block;
@@ -65,7 +65,7 @@ label{
 	transition: all .15s ease;
 	background: black;
 	text-align: center;
-	border:$secondarycolor solid 1px;
+	border: darken($thirdcolor,30%) solid 1px;
 }
 .Efni+label{
   visibility:visible; 
@@ -110,7 +110,7 @@ label:hover {
 		list-style: none;
 	 	z-index: 1000000;
 		flex-grow: 1;
-		border: 1px solid $secondarycolor;
+		border: 1px solid darken($thirdcolor,30%);
 		a{
 			display: block;
 			width: 20em;
