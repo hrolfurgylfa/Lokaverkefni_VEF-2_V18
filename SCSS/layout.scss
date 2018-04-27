@@ -10,6 +10,10 @@
 header{
 	width:100%;
 	background: $maincolor;
+	color: white;
+	text-align: center;
+	padding: 1.2em;
+	border: $secondarycolor solid 2px;
 }
 
 .sidenav{
@@ -53,15 +57,15 @@ header{
   display: none;
 }
 label{
-  color: white;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 18px;
-  padding: 5px 9px;
-  transition: all .15s ease;
-  background: black;
-  text-align: center;
-
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 18px;
+	padding: 5px 9px;
+	transition: all .15s ease;
+	background: black;
+	text-align: center;
+	border:$secondarycolor solid 1px;
 }
 .Efni+label{
   visibility:visible; 
@@ -88,15 +92,12 @@ label:hover {
 }
 @media screen and (min-width: 48em){
 .sidenav{
-		visibility:visible; 
+		visibility:none; 
 	 	position: fixed;
-	 	right:-400em;
+	 	left:-400em;
 	 	overflow: hidden;
 	 	transition: all .15s ease;
-	 	z-index: 1000000;
 		height: 50px;
-		background: $maincolor;
-		border: 1px solid purple;
 	ul{
 		width:	20em;
 		height: 50px;
@@ -105,8 +106,9 @@ label:hover {
 	li{
 		height: 50px;
 		width: 20em;
-		margin-top:-15px;
+		margin-top:5px;
 		list-style: none;
+	 	z-index: 1000000;
 		flex-grow: 1;
 		border: 1px solid $secondarycolor;
 		a{
@@ -136,7 +138,7 @@ label:hover {
 	  visibility:visible; 
 	  position:fixed;
 	  top:100px;
-	  right: 0px;
+	  left: 0px;
 	  width: 50px;
 	  height: 50px;
 	  z-index: 1000000000;
@@ -151,10 +153,14 @@ label:hover {
 	.Efni:checked ~ .topmenu {
 	  visibility: visible;
 	  position:fixed;
-	  right:50px;
+	  left:0px;
 	  top:10em;
 	  width: 20em;
 	  z-index: 1000000;
+	}
+	.topmenu{
+		padding:0px;
+		margin:0px;
 	}
 }
 
