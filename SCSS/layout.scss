@@ -1,3 +1,6 @@
+/*-------------------------------------
+		General layout
+---------------------------------------*/
 *, 
 *:before, 
 *:after
@@ -7,22 +10,44 @@
   box-sizing: border-box;
 }
 
+body{
+	@include hover(false);
+	display: grid;
+	grid-template-areas:
+		'head'
+		'maincontent'
+		'foot';
+}
+.maincontent{
+	grid-area:'maincontent';
+	background: $maincolor;
+	margin-top: 100px;
+	padding:10px;
+	min-height: 100em;
+	width: 50%;
+	border: solid 1px $secondarycolor;
+	justify-self: center;
+	color:white;
+}
 header{
+	grid-area:'head';
 	width:100%;
-<<<<<<< HEAD
 	background: $maincolor;
 	color: white;
 	text-align: center;
 	padding: 1.2em;
 	border: $secondarycolor solid 2px;
-=======
->>>>>>> 3b4678511ca1aec674a5c6ab161ee8c6391b58f5
 }
-
+footer{
+	grid-area:'foot';
+}
+/*--------------------------
+		Navigation
+--------------------------*/
 .sidenav{
-	visibility:visible; 
+	visibility:visible;
 	position: fixed;
-	right:-100em;
+	left:-100em;
 	overflow: hidden;
 	transition: all .15s ease;
 	z-index: 1000000;
@@ -51,10 +76,10 @@ header{
 			justify-content: baseline;
 		}
 		a:hover{
-			@include hover;
+			@include hover('button');
 		}
 	}
-}
+
 
 .Efni{
   display: none;
@@ -93,7 +118,14 @@ label:hover {
   width:100%;
   z-index: 1000;
 }
+}
+/*--------------------------
+		Bigger screens
+-----------------------------*/
 @media screen and (min-width: 48em){
+/*-------------------------
+	  Navigation
+---------------------------*/
 .sidenav{
 		visibility:none; 
 	 	position: fixed;
@@ -124,7 +156,7 @@ label:hover {
 			text-decoration: none;
 		}
 		a:hover{
-			@include hover;
+			@include hover('button');
 		}
 	}
 	label {

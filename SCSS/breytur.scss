@@ -1,5 +1,15 @@
 $maincolor: #000;
 $secondarycolor: purple;
-@mixin hover(){
-	background: linear-gradient(lighten($maincolor,30%),lighten($secondarycolor,30%))
+$thirdcolor: white;
+@mixin hover($choose){
+	@if $choose == 'button' {
+		background: -webkit-linear-gradient(lighten($maincolor,30%), lighten($secondarycolor,30%));
+		background: -o-linear-gradient(lighten($maincolor,30%), lighten($secondarycolor,30%));
+		background: linear-gradient(lighten($maincolor,30%), lighten($secondarycolor,30%));
+	}
+	@else{
+		background: -webkit-linear-gradient(lighten($maincolor,20%),darken($secondarycolor, 10%));
+		background: -o-linear-gradient(lighten($maincolor,20%),darken($secondarycolor, 10%));
+		background: linear-gradient(lighten($maincolor,20%),darken($secondarycolor, 10%));
+	}
 }
