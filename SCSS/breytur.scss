@@ -1,5 +1,6 @@
 $maincolor: #000;
 $secondarycolor: rgb(255, 255, 255);
+$highlights:grey;
 @mixin hover(){
 	background: -webkit-linear-gradient(lighten($maincolor,30%), darken($secondarycolor,30%));
 	background: -o-linear-gradient(lighten($maincolor,30%), darken($secondarycolor,30%));
