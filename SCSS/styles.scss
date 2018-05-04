@@ -1,11 +1,18 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
 header {
     border-bottom: 2px solid $maincolor;
+    padding: 1em;
 }
-h1 {
-    color: white;
+header h1 {
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 100;
+    letter-spacing: .2em;
+    color: $secondarycolor;
     text-align: center;
 }
-h2 {
-    color: white;
+.hype_texti {
+    color: $maincolor;
     text-align: center;
 }
