@@ -1,7 +1,14 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
 header {
     border-bottom: 2px solid $maincolor;
+    padding: 1em;
 }
 h1 {
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 100;
+    letter-spacing: .2em;
     color: white;
     text-align: center;
 }
