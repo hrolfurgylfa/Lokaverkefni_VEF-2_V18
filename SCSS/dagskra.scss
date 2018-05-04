@@ -16,9 +16,11 @@
 .dagskra_lag {
     text-decoration: underline;
 }
-.dagskra_lag:hover {
+.dagskra_lag:hover,
+.dagskra_flytjandi a:hover {
     color: grey;
 }
+
 /*====================
 ----Youtube videos----
 ====================*/
