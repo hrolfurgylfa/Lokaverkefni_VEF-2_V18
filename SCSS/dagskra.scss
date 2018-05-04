@@ -1,8 +1,43 @@
 .dagskra {
     margin: 0 auto;
     padding: 1em;
+    text-align: center;
+}
+.dagskra a {
+    color: black;
+}
+.dagskra a:visited {
+    color: black;
 }
 .dagskra td {
     padding: .5em;
     border: 1px solid black;
+}
+.dagskra_lag {
+    text-decoration: underline;
+}
+.dagskra_lag:hover {
+    color: grey;
+}
+/*====================
+----Youtube videos----
+====================*/
+.goodbye_song {
+    position: fixed;
+    right: -200em;
+}
+.shape_of_you_song {
+    position: fixed;
+    right: -200em;
+}
+
+
+
+
+
+
+
+.hand_in_hand_song {
+    position: fixed;
+    right: -200em;
 }

@@ -13,7 +13,7 @@ header{
 	color: white;
 	text-align: center;
 	padding: 1.2em;
-	border: darken($thirdcolor,30%) solid 2px;
+	border: darken($secondarycolor,30%) solid 2px;
 }
 
 .sidenav{
@@ -35,7 +35,7 @@ header{
 		margin-top:2px;
 		list-style: none;
 		flex-grow: 1;
-		border: 1px solid darken($thirdcolor,30%);
+		border: 1px solid darken($secondarycolor,30%);
 		background: $maincolor;
 		a{
 			display: block;
@@ -51,44 +51,43 @@ header{
 			@include hover;
 		}
 	}
-}
-
-.Efni{
-  display: none;
-}
-label{
-	color: white;
-	cursor: pointer;
-	display: inline-block;
-	font-size: 18px;
-	padding: 5px 9px;
-	transition: all .15s ease;
-	background: black;
-	text-align: center;
-	border: darken($thirdcolor,30%) solid 1px;
-}
-.Efni+label{
-  visibility:visible; 
-  position:fixed;
-  bottom:0px;
-  right:0px;
-  width: 100%;
-  z-index: 1000000;
-}
-label:hover {
-  color: grey;
-}
-.Efni:checked+label {
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
-  color: #9799a7;
-}
-.Efni:checked ~ .topmenu {
-  visibility: visible;
-  position: fixed;
-  right:20px;
-  bottom:80px;
-  width:100%;
-  z-index: 1000;
+	.Efni{
+		display: none;
+	}
+	label{
+		color: white;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 18px;
+		padding: 5px 9px;
+		transition: all .15s ease;
+		background: black;
+		text-align: center;
+		border: $secondarycolor solid 1px;
+	}
+	.Efni+label{
+		visibility:visible; 
+		position:fixed;
+		bottom:0px;
+		right:0px;
+		width: 100%;
+		z-index: 1000000;
+	}
+	label:hover {
+		color: grey;
+	}
+	.Efni:checked+label {
+		box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+		color: #9799a7;
+	}
+	.Efni:checked ~ .topmenu {
+		visibility: visible;
+		position: fixed;
+		right:20px;
+		bottom:80px;
+		width:100%;
+		z-index: 1000;
+	}
 }
 @media screen and (min-width: 48em){
 .sidenav{
@@ -110,7 +109,7 @@ label:hover {
 		list-style: none;
 	 	z-index: 1000000;
 		flex-grow: 1;
-		border: 1px solid darken($thirdcolor,30%);
+		border: 1px solid darken($secondarycolor,30%);
 		a{
 			display: block;
 			width: 20em;

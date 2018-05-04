@@ -1,8 +1,7 @@
 $maincolor: #000;
-$secondarycolor: purple;
-$thirdcolor: white;
+$secondarycolor: rgb(255, 255, 255);
 @mixin hover(){
-	background: -webkit-linear-gradient(lighten($maincolor,30%), darken($thirdcolor,30%));
-	background: -o-linear-gradient(lighten($maincolor,30%), darken($thirdcolor,30%));
-	background: linear-gradient(lighten($maincolor,30%), darken($thirdcolor,30%));
+	background: -webkit-linear-gradient(lighten($maincolor,30%), darken($secondarycolor,30%));
+	background: -o-linear-gradient(lighten($maincolor,30%), darken($secondarycolor,30%));
+	background: linear-gradient(lighten($maincolor,30%), darken($secondarycolor,30%));
 }
