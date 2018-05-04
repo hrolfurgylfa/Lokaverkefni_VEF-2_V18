@@ -1,0 +1,18 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    border-bottom: 2px solid $maincolor;
+    padding: 1em;
+}
+header h1 {
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 100;
+    letter-spacing: .2em;
+    color: $secondarycolor;
+    text-align: center;
+}
+.hype_texti {
+    color: $maincolor;
+    text-align: center;
+}
