@@ -28,7 +28,11 @@ header{
 footer{
 	grid-area:'foot';
 }
-
+.hype_texti{
+    width: 50%;
+    -webkit-align-self: center;
+    justify-self: center;
+}
 .sidenav{
 	visibility:visible; 
 	position: fixed;

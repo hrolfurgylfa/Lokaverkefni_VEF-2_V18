@@ -15,4 +15,6 @@ header h1 {
 .hype_texti {
     color: $maincolor;
     text-align: center;
+    border-bottom: $highlights 1px solid;
+    width: 50%;
 }
