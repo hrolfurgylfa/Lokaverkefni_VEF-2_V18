@@ -25,17 +25,15 @@
     position: fixed;
     right: -200em;
 }
-
-
 .dagskra {
     margin: 0 auto;
     padding: 1em;
     text-align: center;
-tr:nth-child(odd) {
-    color: black;
-a{
-    color: $maincolor;
-}
+    tr:nth-child(odd) {
+        color: black;
+    a {
+        color: $maincolor;
+    }
 }
 td {
     padding: .5em;
