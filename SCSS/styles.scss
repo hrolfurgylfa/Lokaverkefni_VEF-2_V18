@@ -1,5 +1,8 @@
 body {
+    display: block;
     font-family: 'Roboto', sans-serif;
+    @include backgroundcolor();
+    background-repeat: no-repeat;
 }
 header {
     border-bottom: 2px solid $maincolor;
@@ -14,7 +17,7 @@ header h1 {
 }
 .hype_texti {
     color: $maincolor;
-    text-align: center;
+}
+.hype_texti h2{
     border-bottom: $highlights 1px solid;
-    width: 50%;
 }

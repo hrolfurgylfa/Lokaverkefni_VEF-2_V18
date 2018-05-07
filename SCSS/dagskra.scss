@@ -26,7 +26,7 @@
     right: -200em;
 }
 
-
+/*-------------------------------------*/
 .dagskra {
     margin: 0 auto;
     padding: 1em;
@@ -65,5 +65,15 @@ input+label{
 }
 .dagskra_lag:hover{
 	color:$highlights;
+}
+
+/*----------------------------------------------------------*/
+.timetable{
+    min-width: 100%;
+    min-height: 10em;
+    border-bottom: $highlights solid 1px;
+    border-top: $highlights solid 1px;
+    padding: 2em;
+    margin-top: 3em;
 }
 
