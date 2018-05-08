@@ -5,15 +5,22 @@ body {
     background-repeat: no-repeat;
 }
 header {
+    display: flex;
     border-bottom: 2px solid $maincolor;
     padding: 1em;
-}
-header h1 {
-    font-family: 'Do Hyeon', sans-serif;
-    font-weight: 100;
-    letter-spacing: .2em;
-    color: $secondarycolor;
-    text-align: center;
+    justify-content: center;
+    h1 {
+        font-family: 'Do Hyeon', sans-serif;
+        font-weight: 100;
+        letter-spacing: .2em;
+        color: $secondarycolor;
+        text-align: center;
+    }
+    img {
+        width: 2.5em;
+        height: 2.5em;
+        margin: auto 1em;
+    }
 }
 .hype_texti {
     color: $maincolor;
