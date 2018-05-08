@@ -19,7 +19,7 @@
     grid-area:'hype';
     h2{
     	position: relative;
-    	left:25%;
+    	left: 25%;
     	max-width: 50%;
     	text-align: center;
 		justify-self: center;
@@ -29,6 +29,7 @@ header{
 	font-family: icomoon;
 	grid-area:'head';
 	min-width: 100%;
+	max-height: 8em;
 	background: $maincolor;
 	color: white;
 	text-align: center;
@@ -36,6 +37,7 @@ header{
 	border: darken($secondarycolor,30%) solid 2px;
 }
 .content{
+	margin-top: 0px;
 	grid-area:'main';
 	grid-template-areas:
 		'hype'
