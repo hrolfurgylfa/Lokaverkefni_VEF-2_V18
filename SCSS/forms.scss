@@ -1,0 +1,28 @@
+.form_1 {
+    text-align: center;
+    margin: 0;
+    padding-top: .5em;
+    border: 1px solid $maincolor;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    width: 30em;
+    margin: 1em auto;
+    ::-webkit-input-placeholder {
+    text-align: center;
+    }
+    
+    :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+    }
+    
+    ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+    }
+    :-ms-input-placeholder {  
+    text-align: center; 
+    }
+     
+    input {
+        margin-bottom: 1em;
+    }
+}

@@ -205,5 +205,19 @@ body{
 			margin:0px;
 		}
 	}
-
+}
+main {
+	.lysing {
+		max-width: 60em;
+		margin: auto .5em;
+	}
+	.autt_plass {
+		height: 60vh;
+	}
+}
+footer {
+	background-color: black;
+	color: white;
+	padding: 1em 0em;
+	text-align: center;
 }
