@@ -209,10 +209,14 @@ body{
 main {
 	.lysing {
 		max-width: 60em;
-		margin: auto .5em;
+		margin: auto;
 	}
 	.autt_plass {
 		height: 60vh;
+	}
+	.um_personu {
+		max-width: 60em;
+		margin: auto;
 	}
 }
 footer {
