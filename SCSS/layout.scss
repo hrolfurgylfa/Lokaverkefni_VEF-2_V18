@@ -221,6 +221,10 @@ main {
 	.um_personu {
 		max-width: 60em;
 		margin: auto;
+		p {
+			margin-right: .5em;
+			margin-left: .5em;
+		}
 	}
 }
 footer {

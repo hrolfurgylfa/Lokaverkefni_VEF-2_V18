@@ -24,5 +24,11 @@
      
     input {
         margin-bottom: 1em;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 30em) {
+    .form_1 {
+        width: auto;
     }
 }
