@@ -113,7 +113,7 @@ input+label{
 
 @media screen and (max-width: 37.5em) {
     .dagskra {
-        margin: left;
+        width: 100%;
     }
     .dagskra thead {
         display: none;
@@ -124,7 +124,6 @@ input+label{
     .dagskra tr {
         display: block;
         margin-bottom: .75em;
-        width: 140%;
     }
     .dagskra tr {
         text-align: right;
