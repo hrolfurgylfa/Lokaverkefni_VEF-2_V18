@@ -106,3 +106,32 @@ input+label{
     right: 33.33%;
     top: 40em;
 }
+
+/*=========================================
+            Minni Skjáir
+============================================*/
+
+@media screen and (max-width: 37.5em) {
+    .dagskra {
+        margin: left;
+    }
+    .dagskra thead {
+        display: none;
+    }
+    .dagskra td {
+        display: block;
+    }
+    .dagskra tr {
+        display: block;
+        margin-bottom: .75em;
+        width: 140%;
+    }
+    .dagskra tr {
+        text-align: right;
+    }
+    table td:before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+    }
+}
