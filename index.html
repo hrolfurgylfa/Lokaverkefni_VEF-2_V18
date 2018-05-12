@@ -7,7 +7,7 @@
 	<title>Platan</title>
 	<link rel="stylesheet" type="text/css" href="all_styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Roboto" rel="stylesheet">
-	<script src="javascript/button_goodbye"></script>
+	<script src="javascript/button_goodbye.js"></script>
 </head> 
 <body>
     <nav class="sidenav">
@@ -42,54 +42,45 @@
 					<tr>
 					  <td data-label="Lengd" class="dagskra_lengd">3:24</td>
 					  <td data-label="Lag" class="dagskra_lag">
-					  	<button id="video_1" class="video_1class">Goodbye</button>
-					  		<div class="songpopup1">
-					  			<iframe class="goodbye_song" width="560" height="315" src="https://www.youtube.com/embed/AH5_sKwDw1E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-					  			<span class="close">&#2716;</span>
-					  		</div>
+					  	<input type="checkbox" id="video_1"><label for="video_1">Goodbye</label>
+						<iframe class="goodbye_song" width="560" height="315" src="https://www.youtube.com/embed/AH5_sKwDw1E?rel=0&amp; controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 					  </td>
 					  <td data-label="Flytjandi" class="dagskra_flytjandi"><a href="miku">Hatsune Miku</a></td>
 					  <td data-label="Höfundur" class="dagskra_hofundur"><a>VocaCircus</a></td>
 					</tr>
 					<tr>
 						<td data-label="Lengd" class="dagskra_lengd">3:58</td>
-					  <td data-label="Lag" class="dagskra_lag"><input type="checkbox" id="video_2"><label for="video_2">Shape of You</label></td>
+					  <td data-label="Lag" class="dagskra_lag"><input type="checkbox" id="video_2"><label for="video_2">Shape of You</label><iframe class="shape_of_you_song" width="560" height="315" src="https://www.youtube.com/embed/JGwWNGJdvx8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></td>
 					  <td data-label="Flytjandi" class="dagskra_flytjandi"><a href="sheeran">Ed Sheeran</a></td>
 					  <td data-label="Höfundur" class="dagskra_hofundur"><a>Ed Sheeran</a></td>
 					</tr>
 					<tr>
 						<td data-label="Lengd" class="dagskra_lengd">3:57</td>
-						<td data-label="Lag" class="dagskra_lag"><input type="checkbox" id="video_3"><label for="video_3">What do i know</	label></td>
+						<td data-label="Lag" class="dagskra_lag"><input type="checkbox" id="video_3"><label for="video_3">What do i know</label><iframe class="What_do_i_know_song" width="560" height="315" src="https://www.youtube.com/embed/6B9J3lEyffA?rel=0&amp; controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; 	encrypted-media" allowfullscreen></iframe></td>
 						<td data-label="Flytjandi" class="dagskra_flytjandi"><a href="">Ed sheeran</a></td>
 						<td data-label="Höfundur" class="dagskra_hofundur"><a>Ed sheeran</a></td>
 					</tr>
 				  <tr>
 						<td data-label="Lengd" class="dagskra_lengd">5:11</td>
-						<td data-label="Lag" class="dagskra_lag"><input type="checkbox" id="video_4"><label for="video_4">Remote Controller</	label></td>
+						<td data-label="Lag" class="dagskra_lag"><input type="checkbox" id="video_4"><label for="video_4">Remote Controller</label><iframe class="remote_controller_song" width="560" height="315" src="https://www.youtube.com/embed/1st0XSY0VKQ?rel=0&amp; controls=0&amp;showinfo=0" frameborder="0" allow="	autoplay; encrypted-media" allowfullscreen></iframe></td>
 						<td data-label="Flytjandi" class="dagskra_flytjandi"><a href="miku">Hatsune Miku</a></td>
 						<td data-label="Höfundur" class="dagskra_hofundur"><a>Jesus-P</a></td>
 					</tr>
 					<tr>
 						<td data-label="Lengd" class="dagskra_lengd">3:47</td>
-						<td data-label="Lag" class="dagskra_lag"><input type="checkbox" id="video_5"><label for="video_5">Eraser</label></td>
+						<td data-label="Lag" class="dagskra_lag"><input type="checkbox" id="video_5"><label for="video_5">Eraser</label><iframe class="eraser_song" width="560" height="315" src="https://www.youtube.com/embed/OjGrcJ4lZCc?rel=0&amp; controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; 	encrypted-media" allowfullscreen></iframe></td>
 						<td data-label="Flytjandi" class="dagskra_flytjandi"><a href="sheeran">Ed Sheeran</a></td>
 						<td data-label="Höfundur" class="dagskra_hofundur"><a>Ed Sheeran</a></td>
 					</tr>
 				  <tr>
 						<td data-label="Lengd" class="dagskra_lengd">5:07</td>
-						<td data-label="Lag" class="dagskra_lag"><input type="checkbox" id="video_6"><label for="video_6">Hand in Hand</label	></td>
+						<td data-label="Lag" class="dagskra_lag"><input type="checkbox" id="video_6"><label for="video_6">Hand in Hand</label	><iframe class="hand_in_hand_song" width="560" height="315" src="https://www.youtube.com/embed/RKtoreimcQ8?rel=0&amp; controls=0&amp;showinfo=0" frameborder="0" allow="	autoplay; encrypted-media" allowfullscreen></iframe></td>
 						<td data-label="Flytjandi" class="dagskra_flytjandi"><a href="miku">Hatsune Miku</a></td>
 						<td data-label="Höfundur" class="dagskra_hofundur"><a>kzlivetune</a></td>
 					</tr>
 				</tbody>
 			</table>
 		</section>
-		<section class="videos">
-			<iframe class="shape_of_you_song" width="560" height="315" src="https://www.youtube.com/embed/JGwWNGJdvx8" frameborder="0" allow="autoplay; 	encrypted-media" allowfullscreen></iframe>
-			<iframe class="What_do_i_know_song" width="560" height="315" src="https://www.youtube.com/embed/6B9J3lEyffA" frameborder="0" allow="autoplay; 	encrypted-media" allowfullscreen></iframe>
-			<iframe class="remote_controller_song" width="560" height="315" src="https://www.youtube.com/embed/1st0XSY0VKQ?rel=0" frameborder="0" allow="	autoplay; encrypted-media" allowfullscreen></iframe>
-			<iframe class="eraser_song" width="560" height="315" src="https://www.youtube.com/embed/OjGrcJ4lZCc" frameborder="0" allow="autoplay; 	encrypted-media" allowfullscreen></iframe>
-			<iframe class="hand_in_hand_song" width="560" height="315" src="https://www.youtube.com/embed/RKtoreimcQ8?rel=0" frameborder="0" allow="	autoplay; encrypted-media" allowfullscreen></iframe>
 		<section class="lysing">
 			<div class="hype_texti">
 				<h2 id="timi">Dagskrá</h2>

@@ -73,20 +73,6 @@ input+label{
 .dagskra_lag:hover{
 	color:$highlights;
 }
-
-.songpopup1{
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left:0;
-    top:0;
-    right:0;
-    width:100%;
-    height:100%;
-    overflow: auto;
-    background: rgb(0,0,0);
-    background: rgba(0,0,0,0.4);
-}
 /*----------------------------------------------------------*/
 .timetable{
     min-width: 100%;
@@ -101,10 +87,49 @@ input+label{
             video functionality
 ============================================*/
 
-.video_1:checked~.goodbye_song{
-    position: absolute;
-    right: 33.33%;
-    top: 40em;
+#video_1:checked~.goodbye_song{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    margin: 10px 10px 10px 20px;
+    border: outset $highlights 5px;
+}
+
+#video_2:checked~.shape_of_you_song{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    margin: 10px 10px 10px 20px;
+    border: outset $highlights 5px;
+}
+
+#video_3:checked~.What_do_i_know_song{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    margin: 10px 10px 10px 20px;
+    border: outset $highlights 5px;
+}
+#video_4:checked~.remote_controller_song{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    margin: 10px 10px 10px 20px;
+    border: outset $highlights 5px;
+}
+#video_5:checked~.eraser_song{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    margin: 10px 0px 10px 40px;
+    border: outset $highlights 5px;
+}
+#video_6:checked~.hand_in_hand_song{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    margin: 10px 10px 10px 20px;
+    border: outset $highlights 5px;
 }
 
 /*=========================================
