@@ -210,8 +210,10 @@ main {
 	.lysing {
 		max-width: 60em;
 		margin: auto;
-		margin-right: .5em;
-		margin-left: .5em;
+		p {
+			margin-right: .5em;
+			margin-left: .5em;
+		}
 	}
 	.autt_plass {
 		height: 40vh;
