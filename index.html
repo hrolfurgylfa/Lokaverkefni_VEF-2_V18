@@ -7,6 +7,7 @@
 	<title>Platan</title>
 	<link rel="stylesheet" type="text/css" href="all_styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Roboto" rel="stylesheet">
+	<script src="javascript/button_goodbye"></script>
 </head> 
 <body>
     <nav class="sidenav">
@@ -41,20 +42,11 @@
 					<tr>
 					  <td data-label="Lengd" class="dagskra_lengd">3:24</td>
 					  <td data-label="Lag" class="dagskra_lag">
-					  	<button id="video_1" class="video_1">Goodbye</button>
+					  	<button id="video_1" class="video_1class">Goodbye</button>
 					  		<div class="songpopup1">
-					  			<iframe class="goodbye_song" width="560" height="315" src="https://www.youtube.com/embed/AH5_sKwDw1E?rel=0" frameborder="0" allow="autoplay; 	encrypted-media" allowfullscreen></iframe>
+					  			<iframe class="goodbye_song" width="560" height="315" src="https://www.youtube.com/embed/AH5_sKwDw1E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					  			<span class="close">&#2716;</span>
 					  		</div>
-					  	<script type="text/javascript">
-							document.getElementById("video_1").onclick = function(){
-								document.getElementsByClassName("songpopup1").style.display = "block";
-							}
-							window.onclick = function(event){
-								if (event.target == document.getElementsByClassName("songpopup1")){
-									document.getElementsByClassName("songpopup1").style.display = "none";
-								}
-							}
-						</script>
 					  </td>
 					  <td data-label="Flytjandi" class="dagskra_flytjandi"><a href="miku">Hatsune Miku</a></td>
 					  <td data-label="Höfundur" class="dagskra_hofundur"><a>VocaCircus</a></td>
@@ -110,5 +102,8 @@
 	<footer>
 		<h4>Friðrik Fannar Söebech og Hrólfur Gylfason&copy;</h4>
 	</footer>
+	<script>
+		
+	</script>
 </body>
 </html>
