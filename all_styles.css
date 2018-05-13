@@ -478,11 +478,15 @@ template {
 /*=========================================
             video responsiveness
 ============================================*/
+.dagskra {
+  max-width: 50em; }
+
 .dagskra_lag {
   position: relative;
   height: 0;
   overflow: hidden;
-  height: 7em; }
+  height: 7em;
+  width: 100%; }
 
 /* 16x9 Aspect Ratio */
 .dagskra_lag-16x9 {
@@ -499,6 +503,9 @@ template {
   width: 100%;
   height: 100%; }
 
+@media screen and (min-width: 50em) {
+  .dagskra_lag {
+    height: 16em; } }
 /*=========================================
             video functionality
 ============================================*/
