@@ -1,2 +1,824 @@
-/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:0.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace, monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}.goodbye_song{position:fixed;right:-200em}.shape_of_you_song{position:fixed;right:-200em}.What_do_i_know_song{position:fixed;right:-200em}.remote_controller_song{position:fixed;right:-200em}.eraser_song{position:fixed;right:-200em}.hand_in_hand_song{position:fixed;right:-200em}.videos{margin-top:0px;min-width:100%;min-height:400px;border-bottom:grey solid 1px}.dagskra{margin:0 auto;padding:1em;text-align:center}.dagskra tr:nth-child(odd){color:black}.dagskra tr:nth-child(odd) a{color:#000}.dagskra td{padding:.5em;border:1px solid #b3b3b3}.dagskra .dagskra_flytjandi a:hover{color:grey}.dagskra tr:nth-child(even){color:#fff;background:#000}.dagskra tr:nth-child(even) a{color:#fff}.dagskra input{display:none}.dagskra input+label{cursor:pointer}.dagskra_lag{text-decoration:underline}.dagskra_lag:hover{color:grey}.timetable{min-width:100%;min-height:10em;border-bottom:grey solid 1px;border-top:grey solid 1px;padding:2em;margin-top:3em}#video_1:checked ~ .goodbye_song{position:relative;top:0px;right:0px;margin:10px 10px 10px 20px;border:outset grey 5px}#video_2:checked ~ .shape_of_you_song{position:relative;top:0px;right:0px;margin:10px 10px 10px 20px;border:outset grey 5px}#video_3:checked ~ .What_do_i_know_song{position:relative;top:0px;right:0px;margin:10px 10px 10px 20px;border:outset grey 5px}#video_4:checked ~ .remote_controller_song{position:relative;top:0px;right:0px;margin:10px 10px 10px 20px;border:outset grey 5px}#video_5:checked ~ .eraser_song{position:relative;top:0px;right:0px;margin:10px 0px 10px 40px;border:outset grey 5px}#video_6:checked ~ .hand_in_hand_song{position:relative;top:0px;right:0px;margin:10px 10px 10px 20px;border:outset grey 5px}@media screen and (max-width: 37.5em){.dagskra{width:100%}.dagskra thead{display:none}.dagskra td{display:block}.dagskra tr{display:block;margin-bottom:.75em}.dagskra tr{text-align:right}table td:before{content:attr(data-label);float:left;font-weight:bold}}.form_1{text-align:center;margin:0;padding-top:.5em;border:1px solid #000;border-radius:1em;margin-bottom:1em;width:30em;margin:1em auto}.form_1 ::-webkit-input-placeholder{text-align:center}.form_1 :-moz-placeholder{text-align:center}.form_1 ::-moz-placeholder{text-align:center}.form_1 :-ms-input-placeholder{text-align:center}.form_1 input{margin-bottom:1em;text-align:center}@media screen and (max-width: 30em){.form_1{width:auto}}@font-face{font-family:icomoon;src:url("Fonts/icomoon.woff Fonts/icomoon.eot Fonts/icomoon.ttf Fonts/icomoon.svg")}*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.dagskra{grid-area:'skra'}.hype_texti{min-width:100%;justify-content:center;grid-area:'hype'}.hype_texti h2{position:relative;left:25%;max-width:50%;text-align:center;justify-self:center}header{font-family:icomoon;grid-area:'head';min-width:100%;max-height:8em;background:#000;color:white;text-align:center;padding:1.2em;border:#b3b3b3 solid 2px}.content{margin-top:0px;grid-area:'main';grid-template-areas:"hype" "skra"}footer{grid-area:'foot'}body{min-height:100vh;min-width:100%;display:grid;grid-template-areas:'head' 'main' 'foot'}.sidenav{visibility:visible;position:fixed;right:-100em;overflow:hidden;transition:all .15s ease;z-index:1000000}.sidenav ul{width:100%;justify-content:center;width:100%;height:200px}.sidenav li{min-height:50px;min-width:100%;margin-top:2px;list-style:none;flex-grow:1;border:1px solid #b3b3b3;background:#000}.sidenav li a{display:block;min-width:100%;min-height:100%;padding:13px;text-align:center;color:white;text-decoration:none;justify-content:baseline}.sidenav li a:hover{background:-webkit-linear-gradient(#4d4d4d, #b3b3b3);background:-o-linear-gradient(#4d4d4d, #b3b3b3);background:linear-gradient(#4d4d4d, #b3b3b3)}.sidenav .Efni{display:none}.sidenav label{color:white;cursor:pointer;display:inline-block;font-size:18px;padding:5px 9px;transition:all .15s ease;background:black;text-align:center;border:#fff solid 1px}.sidenav .Efni+label{visibility:visible;position:fixed;bottom:0px;right:0px;width:100%;z-index:1000000}.sidenav label:hover{color:grey}.sidenav .Efni:checked+label{box-shadow:inset 0 1px 2px rgba(0,0,0,0.15);color:#9799a7}.sidenav .Efni:checked ~ .topmenu{visibility:visible;position:fixed;right:20px;bottom:80px;width:100%;z-index:1000}.content{text-align:center}@media screen and (min-width: 48em){.sidenav{visibility:none;position:fixed;left:-400em;overflow:hidden;transition:all .15s ease;height:50px}.sidenav ul{width:20em;height:50px;justify-content:center}.sidenav li{height:50px;width:20em;margin-top:5px;list-style:none;z-index:1000000;flex-grow:1;border:1px solid #b3b3b3}.sidenav li a{display:block;width:20em;height:50px;padding:13px;text-align:center;color:white;text-decoration:none}.sidenav li a:hover{background:-webkit-linear-gradient(#4d4d4d, #b3b3b3);background:-o-linear-gradient(#4d4d4d, #b3b3b3);background:linear-gradient(#4d4d4d, #b3b3b3)}.sidenav label{color:white;cursor:pointer;display:inline-block;text-align:center;font-size:18px;padding:15px;transition:all .15s ease;background:black}.sidenav .Efni+label{visibility:visible;position:fixed;top:100px;left:0px;width:50px;height:50px;z-index:1000000000}.sidenav label:hover{color:grey}.sidenav .Efni:checked+label{box-shadow:inset 0 1px 2px rgba(0,0,0,0.15);color:#9799a7}.sidenav .Efni:checked ~ .topmenu{visibility:visible;position:fixed;left:0px;top:10em;width:20em;z-index:1000000}.sidenav .topmenu{padding:0px;margin:0px}}main .lysing{max-width:60em;margin:auto}main .lysing p{margin-right:.5em;margin-left:.5em}main .autt_plass{height:40vh}main .um_personu{max-width:60em;margin:auto}main .um_personu p{margin-right:.5em;margin-left:.5em}footer{background-color:black;color:white;padding:1em 0em;text-align:center}body{font-family:'Roboto', sans-serif}header{display:flex;border-bottom:2px solid #000;padding:1em;justify-content:center}header h1{font-family:'Do Hyeon', sans-serif;font-weight:100;letter-spacing:.2em;color:#fff;text-align:center}header img{width:2.5em;height:2.5em;margin:auto 1em}.hype_texti{color:#000;text-align:center}.hype_texti h2{border-bottom:grey 1px solid}
+@charset "UTF-8";
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+/* Document
+   ========================================================================== */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  line-height: 1.15;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+body {
+  margin: 0; }
+
+/**
+ * Add the correct display in IE 9-.
+ */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block; }
+
+/**
+ * Add the correct margin in IE 8.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */ }
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+a:active,
+a:hover {
+  outline-width: 0; }
+
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b,
+strong {
+  font-weight: inherit; }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+video {
+  display: inline-block; }
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none; }
+
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */ }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+details,
+menu {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+canvas {
+  display: inline-block; }
+
+/**
+ * Add the correct display in IE.
+ */
+template {
+  display: none; }
+
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+[hidden] {
+  display: none; }
+
+/*====================
+----Youtube videos----
+====================*/
+.goodbye_song {
+  position: fixed;
+  right: -200em; }
+
+.shape_of_you_song {
+  position: fixed;
+  right: -200em; }
+
+.What_do_i_know_song {
+  position: fixed;
+  right: -200em; }
+
+.remote_controller_song {
+  position: fixed;
+  right: -200em; }
+
+.eraser_song {
+  position: fixed;
+  right: -200em; }
+
+.hand_in_hand_song {
+  position: fixed;
+  right: -200em; }
+
+.videos {
+  margin-top: 0px;
+  min-width: 100%;
+  min-height: 400px;
+  border-bottom: grey solid 1px; }
+
+/*-------------------------------------*/
+.dagskra {
+  margin: 0 auto;
+  padding: 1em;
+  text-align: center; }
+  .dagskra tr:nth-child(odd) {
+    color: black; }
+    .dagskra tr:nth-child(odd) a {
+      color: #000; }
+  .dagskra td {
+    padding: .5em;
+    border: 1px solid #b3b3b3; }
+  .dagskra .dagskra_flytjandi a:hover {
+    color: grey; }
+  .dagskra tr:nth-child(even) {
+    color: white;
+    background: #000; }
+    .dagskra tr:nth-child(even) a {
+      color: white; }
+  .dagskra input {
+    display: none; }
+  .dagskra input + label {
+    cursor: pointer; }
+
+.dagskra_lag {
+  text-decoration: underline; }
+
+.dagskra_lag:hover {
+  color: grey; }
+
+/*----------------------------------------------------------*/
+.timetable {
+  min-width: 100%;
+  min-height: 10em;
+  border-bottom: grey solid 1px;
+  border-top: grey solid 1px;
+  padding: 2em;
+  margin-top: 3em; }
+
+/*=========================================
+            video responsiveness
+============================================*/
+.dagskra_lag {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  height: 7em; }
+
+/* 16x9 Aspect Ratio */
+.dagskra_lag-16x9 {
+  padding-bottom: 56.25%; }
+
+/* 4x3 Aspect Ratio */
+.dagskra_lag-4x3 {
+  padding-bottom: 75%; }
+
+.dagskra_lag iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/*=========================================
+            video functionality
+============================================*/
+#video_1:checked ~ .goodbye_song {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  margin: 10px 10px 10px 20px;
+  border: outset grey 5px; }
+
+#video_2:checked ~ .shape_of_you_song {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  margin: 10px 10px 10px 20px;
+  border: outset grey 5px; }
+
+#video_3:checked ~ .What_do_i_know_song {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  margin: 10px 10px 10px 20px;
+  border: outset grey 5px; }
+
+#video_4:checked ~ .remote_controller_song {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  margin: 10px 10px 10px 20px;
+  border: outset grey 5px; }
+
+#video_5:checked ~ .eraser_song {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  margin: 10px 0px 10px 40px;
+  border: outset grey 5px; }
+
+#video_6:checked ~ .hand_in_hand_song {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  margin: 10px 10px 10px 20px;
+  border: outset grey 5px; }
+
+/*=========================================
+            Minni Skjáir
+============================================*/
+@media screen and (max-width: 37.5em) {
+  .dagskra {
+    width: 100%; }
+
+  .dagskra thead {
+    display: none; }
+
+  .dagskra td {
+    display: block; }
+
+  .dagskra tr {
+    display: block;
+    margin-bottom: .75em; }
+
+  .dagskra tr {
+    text-align: right; }
+
+  table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold; } }
+.form_1 {
+  text-align: center;
+  margin: 0;
+  padding-top: .5em;
+  border: 1px solid #000;
+  border-radius: 1em;
+  margin-bottom: 1em;
+  width: 30em;
+  margin: 1em auto; }
+  .form_1 ::-webkit-input-placeholder {
+    text-align: center; }
+  .form_1 :-moz-placeholder {
+    /* Firefox 18- */
+    text-align: center; }
+  .form_1 ::-moz-placeholder {
+    /* Firefox 19+ */
+    text-align: center; }
+  .form_1 :-ms-input-placeholder {
+    text-align: center; }
+  .form_1 input {
+    margin-bottom: 1em;
+    text-align: center; }
+
+@media screen and (max-width: 30em) {
+  .form_1 {
+    width: auto; } }
+@font-face {
+  font-family: icomoon;
+  src: url("Fonts/icomoon.woff Fonts/icomoon.eot Fonts/icomoon.ttf Fonts/icomoon.svg"); }
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.dagskra {
+  grid-area: 'skra'; }
+
+.hype_texti {
+  min-width: 100%;
+  justify-content: center;
+  grid-area: 'hype'; }
+  .hype_texti h2 {
+    position: relative;
+    left: 25%;
+    max-width: 50%;
+    text-align: center;
+    justify-self: center; }
+
+header {
+  font-family: icomoon;
+  grid-area: 'head';
+  min-width: 100%;
+  max-height: 8em;
+  background: #000;
+  color: white;
+  text-align: center;
+  padding: 1.2em;
+  border: #b3b3b3 solid 2px; }
+
+.content {
+  margin-top: 0px;
+  grid-area: 'main';
+  grid-template-areas: "hype" "skra"; }
+
+footer {
+  grid-area: 'foot'; }
+
+body {
+  min-height: 100vh;
+  min-width: 100%;
+  display: grid;
+  grid-template-areas: 'head' 'main' 'foot'; }
+
+.sidenav {
+  visibility: visible;
+  position: fixed;
+  right: -100em;
+  overflow: hidden;
+  transition: all .15s ease;
+  z-index: 1000000; }
+  .sidenav ul {
+    width: 100%;
+    justify-content: center;
+    width: 100%;
+    height: 200px; }
+  .sidenav li {
+    min-height: 50px;
+    min-width: 100%;
+    margin-top: 2px;
+    list-style: none;
+    flex-grow: 1;
+    border: 1px solid #b3b3b3;
+    background: #000; }
+    .sidenav li a {
+      display: block;
+      min-width: 100%;
+      min-height: 100%;
+      padding: 13px;
+      text-align: center;
+      color: white;
+      text-decoration: none;
+      justify-content: baseline; }
+    .sidenav li a:hover {
+      background: -webkit-linear-gradient(#4d4d4d, #b3b3b3);
+      background: -o-linear-gradient(#4d4d4d, #b3b3b3);
+      background: linear-gradient(#4d4d4d, #b3b3b3); }
+  .sidenav .Efni {
+    display: none; }
+  .sidenav label {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px 9px;
+    transition: all .15s ease;
+    background: black;
+    text-align: center;
+    border: white solid 1px; }
+  .sidenav .Efni + label {
+    visibility: visible;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    z-index: 1000000; }
+  .sidenav label:hover {
+    color: grey; }
+  .sidenav .Efni:checked + label {
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+    color: #9799a7; }
+  .sidenav .Efni:checked ~ .topmenu {
+    visibility: visible;
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    width: 100%;
+    z-index: 1000; }
+
+.content {
+  text-align: center; }
+
+@media screen and (min-width: 48em) {
+  .sidenav {
+    visibility: none;
+    position: fixed;
+    left: -400em;
+    overflow: hidden;
+    transition: all .15s ease;
+    height: 50px; }
+    .sidenav ul {
+      width: 20em;
+      height: 50px;
+      justify-content: center; }
+    .sidenav li {
+      height: 50px;
+      width: 20em;
+      margin-top: 5px;
+      list-style: none;
+      z-index: 1000000;
+      flex-grow: 1;
+      border: 1px solid #b3b3b3; }
+      .sidenav li a {
+        display: block;
+        width: 20em;
+        height: 50px;
+        padding: 13px;
+        text-align: center;
+        color: white;
+        text-decoration: none; }
+      .sidenav li a:hover {
+        background: -webkit-linear-gradient(#4d4d4d, #b3b3b3);
+        background: -o-linear-gradient(#4d4d4d, #b3b3b3);
+        background: linear-gradient(#4d4d4d, #b3b3b3); }
+    .sidenav label {
+      color: white;
+      cursor: pointer;
+      display: inline-block;
+      text-align: center;
+      font-size: 18px;
+      padding: 15px;
+      transition: all .15s ease;
+      background: black; }
+    .sidenav .Efni + label {
+      visibility: visible;
+      position: fixed;
+      top: 100px;
+      left: 0px;
+      width: 50px;
+      height: 50px;
+      z-index: 1000000000; }
+    .sidenav label:hover {
+      color: grey; }
+    .sidenav .Efni:checked + label {
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+      color: #9799a7; }
+    .sidenav .Efni:checked ~ .topmenu {
+      visibility: visible;
+      position: fixed;
+      left: 0px;
+      top: 10em;
+      width: 20em;
+      z-index: 1000000; }
+    .sidenav .topmenu {
+      padding: 0px;
+      margin: 0px; } }
+main .lysing {
+  max-width: 60em;
+  margin: auto; }
+  main .lysing p {
+    margin-right: .5em;
+    margin-left: .5em; }
+main .autt_plass {
+  height: 40vh; }
+main .um_personu {
+  max-width: 60em;
+  margin: auto; }
+  main .um_personu p {
+    margin-right: .5em;
+    margin-left: .5em; }
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 1em 0em;
+  text-align: center; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+header {
+  display: flex;
+  border-bottom: 2px solid #000;
+  padding: 1em;
+  justify-content: center; }
+  header h1 {
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 100;
+    letter-spacing: .2em;
+    color: white;
+    text-align: center; }
+  header img {
+    width: 2.5em;
+    height: 2.5em;
+    margin: auto 1em; }
+
+.hype_texti {
+  color: #000;
+  text-align: center; }
+  .hype_texti h2 {
+    border-bottom: grey 1px solid; }
+
 /*# sourceMappingURL=all_styles.css.map */
